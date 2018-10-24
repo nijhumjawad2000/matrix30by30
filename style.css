@@ -1,0 +1,55 @@
+.main{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 98vh;
+}
+.start1{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 16vw;
+    height: 16vh;
+}
+.body{
+    height: 74vh;
+    width: 75vw;
+    background-color: #eae27e;
+    text-align: center;
+    border:1px solid black;
+    
+}
+
+.start{
+	
+	box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	background:linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbe6c4', endColorstr='#9ba892',GradientType=0);
+	background-color:#dbe6c4;
+	border-radius:6px;
+	border:1px solid #b2b8ad;
+	display:inline-block;
+	cursor:pointer;
+	color:#757d6f;
+	font-family:Arial;
+	font-size:26px;
+	font-weight:bold;
+	padding:19px 45px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+}
+.start:hover {
+
+	background:linear-gradient(to bottom, #9ba892 5%, #dbe6c4 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ba892', endColorstr='#dbe6c4',GradientType=0);
+	background-color:#9ba892;
+}
+.start:active {
+	position:relative;
+	top:1px;
+}
