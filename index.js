@@ -5,7 +5,7 @@ var first_i = 0;
 var first_j = 0;
 var myArray= new Array(30);
 for (var i = 0; i < 30; i++){
-myArray[i] = new Array(30).fill( 0 );
+myArray[i] = new Array(30).fill( "&nbsp" );
 }
 function clickButton() {
     button.style.visibility = 'hidden';
@@ -13,10 +13,10 @@ function clickButton() {
     setTimeout(() => {
         var new_i = 15;
         var new_j = 15;
-        myArray[first_i][first_j] = 0;
+        myArray[first_i][first_j] = "&nbsp";
         new_i += Math.floor(Math.random() * 2);
         new_j += Math.floor(Math.random() * 2);
-        myArray[new_i][new_j] = 1;
+        myArray[new_i][new_j] = `<img src="Pikachu.png">`;
         first_i = new_i;
         first_j = new_j;
  

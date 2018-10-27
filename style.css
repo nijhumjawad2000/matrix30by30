@@ -16,17 +16,19 @@ body{
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-   
     width: 16vw;
     height: 16vh;
 }
 .body{
     height: 74vh;
-    width: 75vw;
-    background-color: #eae27e;
+	/* width: 75vw; */
+	background: url("https://www.thewallpapers.org/photo/25030/cartoon-landia.jpg");
+	/* background-attachment: fixed; */
+	background-size: cover;
+	background-color: #eae27e;
+	background-repeat: no-repeat;
     text-align: center;
     border:1px solid black;
-    
 }
 
 .start{
@@ -56,4 +58,14 @@ body{
 .start:active {
 	position:relative;
 	top:1px;
+}
+img{
+	width: 30vw;
+	height: 30vh;
+}
+
+.array{
+	height: 60vh;
+	width: 80vw;
+	font-size: 6px;
 }
